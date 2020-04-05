@@ -1,3 +1,5 @@
+![release](https://github.com/customcommander/multifun/workflows/release/badge.svg?branch=master)
+
 # multifun
 
 Clojure-inspired multimethods for JavaScript.
