@@ -66,6 +66,8 @@ const xyz =
 xyz(...);
 ```
 
+Here are the parameters to `multifun`:
+
 1.  The 1<sup>st</sup> parameter is the dispatching function.<br>
     It takes all the parameters passed to `xyz` and returns a value.
 
