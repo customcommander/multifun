@@ -1,0 +1,7 @@
+{
+  "name": "multifun",
+  "image": "customcommander/tagtical",
+  "postCreateCommand": [
+    "yarn"
+  ]
+}

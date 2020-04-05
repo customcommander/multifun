@@ -1,0 +1,16 @@
+name: ci
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  test:
+    name: unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+        with:
+          fetch-depth: 1
+      - run: docker run --rm --mount type=bind,src=$GITHUB_WORKSPACE,dst=/workspaces/dev -w /workspaces/dev customcommander/tagtical sh -c 'yarn && yarn build && yarn test'

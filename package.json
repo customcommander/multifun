@@ -1,0 +1,29 @@
+{
+  "private": false,
+  "name": "@customcommander/multifun",
+  "version": "1.0.0",
+  "description": "Clojure-inspired multimethods for JavaScript",
+  "license": "MIT",
+  "repository": "https://github.com/customcommander/multifun.git",
+  "author": "customcommander <hello@spinjs.com>",
+  "keywords": [
+    "multimethod",
+    "polymorphism",
+    "functional programming",
+    "clojure",
+    "clojurescript"
+  ],
+  "main": "dist/index.js",
+  "files": [
+    "!./index.js"
+  ],
+  "scripts": {
+    "build": "make dist/index.js",
+    "test": "tape index.test.js"
+  },
+  "devDependencies": {
+    "semantic-release": "^17.0.4",
+    "tape": "^4.13.2",
+    "testdouble": "^3.  13.1"
+  }
+}
