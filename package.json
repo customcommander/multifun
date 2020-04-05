@@ -1,5 +1,4 @@
 {
-  "private": false,
   "name": "@customcommander/multifun",
   "version": "1.0.0",
   "description": "Clojure-inspired multimethods for JavaScript",
@@ -24,6 +23,9 @@
   "devDependencies": {
     "semantic-release": "^17.0.4",
     "tape": "^4.13.2",
-    "testdouble": "^3.  13.1"
+    "testdouble": "^3.13.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
