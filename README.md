@@ -1,4 +1,4 @@
-![release](https://github.com/customcommander/multifun/workflows/release/badge.svg?branch=master)
+![release](https://github.com/customcommander/multifun/workflows/release/badge.svg?branch=master) [![release](https://img.shields.io/npm/v/@customcommander/multifun)](https://www.npmjs.com/package/@customcommander/multifun)
 
 # multifun
 
