@@ -68,6 +68,7 @@ const pair =
             ]
           );
 
+// better doc please
 module.exports =
   (dispatcher, ...rest) =>
     make_multifn
