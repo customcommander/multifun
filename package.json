@@ -21,7 +21,7 @@
     "test": "tape index.test.js"
   },
   "devDependencies": {
-    "semantic-release": "^17.0.4",
+    "semantic-release": "^19.0.3",
     "tape": "^4.13.2",
     "testdouble": "^3.13.1"
   },
